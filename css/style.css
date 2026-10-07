@@ -575,6 +575,32 @@ body {
     }
 }
 
+/* Hero de la página de inicio */
+.hero-home-img {
+    width: min(320px, 70vw);
+    height: auto;
+    filter: drop-shadow(0 0 24px rgba(255, 255, 255, 0.25));
+}
+
+/* Tarjetas de navegación en la página de inicio */
+.home-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.home-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+}
+
+.home-card-link {
+    color: inherit;
+}
+
+.home-card-link:hover {
+    color: inherit;
+}
+
 /* Se define el ancho y alto de los elementos de video */
 video {
     width: 60%;
